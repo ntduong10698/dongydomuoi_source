@@ -1,0 +1,54 @@
+xmlns : "http://www.sitemaps.org/schemas/sitemap/0.9"
+server:
+  port: 6868
+spring:
+  application:
+    name: dongydomuoi
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: Dongydomuoi@2025!
+    url: jdbc:mysql://103.106.104.190:3306/dongydomuoi_com?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: dongydomuoi_com
+    hikari:
+      idle-timeout: 5000
+      maximum-pool-size: 50
+      max-lifetime: 30000
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        event:
+          merge:
+            entity_copy_observer: allow
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: Minhhieu98@
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    username: bksoftwaremail@gmail.com
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 100KB
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+  download:
+    link-prefix: https://cdn.bksoftwarevn.com/resources/micro-upload/
+server-url: https://admin.dongydomuoi.com/
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: /tmp/admin_dongydomuoi_com.log

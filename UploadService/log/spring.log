@@ -1,0 +1,601 @@
+2020-12-10 15:43:24.280  INFO 11500 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 11500 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 15:43:24.287  INFO 11500 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 15:43:24.343  INFO 11500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-10 15:43:24.344  INFO 11500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-10 15:43:25.668  INFO 11500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 15:43:25.677  INFO 11500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 15:43:25.678  INFO 11500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 15:43:25.780  INFO 11500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 15:43:25.781  INFO 11500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1437 ms
+2020-12-10 15:43:26.571  INFO 11500 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b2b2a130-d4db-43e9-84b1-733044e1baba
+
+2020-12-10 15:43:26.644  INFO 11500 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 15:43:26.700  INFO 11500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40abf9be, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a583d82, org.springframework.security.web.header.HeaderWriterFilter@115daae6, org.springframework.web.filter.CorsFilter@628836af, org.springframework.security.web.authentication.logout.LogoutFilter@325867f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8f709ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@199499a9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72c08ed1, org.springframework.security.web.session.SessionManagementFilter@22eaf7d7, org.springframework.security.web.access.ExceptionTranslationFilter@6b537fa5]
+2020-12-10 15:43:26.735  INFO 11500 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 15:43:26.769  INFO 11500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 15:43:26.936  INFO 11500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 15:43:26.938  INFO 11500 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 15:43:26.959  INFO 11500 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 15:43:26.997  INFO 11500 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 15:43:27.176  INFO 11500 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 3.28 seconds (JVM running for 4.206)
+2020-12-10 15:44:00.943  INFO 11500 --- [http-nio-9300-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 15:44:00.944  INFO 11500 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 15:44:00.949  INFO 11500 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-10 16:13:53.960  INFO 6552 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 6552 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:13:53.964  INFO 6552 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:13:54.017  INFO 6552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-10 16:13:54.017  INFO 6552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-10 16:13:55.425  INFO 6552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:13:55.433  INFO 6552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:13:55.434  INFO 6552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:13:55.549  INFO 6552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:13:55.550  INFO 6552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1533 ms
+2020-12-10 16:13:56.423  INFO 6552 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9797edd5-e911-4a79-bd49-c4491d826461
+
+2020-12-10 16:13:56.500  INFO 6552 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 16:13:56.567  INFO 6552 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@443253c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@223c8d31, org.springframework.security.web.header.HeaderWriterFilter@764c4871, org.springframework.web.filter.CorsFilter@4627c32d, org.springframework.security.web.authentication.logout.LogoutFilter@66ac1e35, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1cb526c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@163e6a57, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cbb51cf, org.springframework.security.web.session.SessionManagementFilter@320173c9, org.springframework.security.web.access.ExceptionTranslationFilter@60a02516]
+2020-12-10 16:13:56.604  INFO 6552 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 16:13:56.640  INFO 6552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 16:13:56.790  INFO 6552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 16:13:56.791  INFO 6552 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 16:13:56.813  INFO 6552 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 16:13:56.854  INFO 6552 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 16:13:57.049  INFO 6552 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 3.509 seconds (JVM running for 4.363)
+2020-12-10 16:14:39.348  INFO 6552 --- [http-nio-9300-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 16:14:39.349  INFO 6552 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 16:14:39.353  INFO 6552 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-12-10 16:18:55.343  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 4800 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:18:55.346  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:18:55.389  INFO 4800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-10 16:18:55.389  INFO 4800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-10 16:18:56.576  INFO 4800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:18:56.585  INFO 4800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:18:56.586  INFO 4800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:18:56.686  INFO 4800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:18:56.686  INFO 4800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
+2020-12-10 16:18:57.385  INFO 4800 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7c292196-750c-4d71-b077-e3ce1e936647
+
+2020-12-10 16:18:57.444  INFO 4800 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 16:18:57.500  INFO 4800 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29885dcc, org.springframework.security.web.context.SecurityContextPersistenceFilter@712e835d, org.springframework.security.web.header.HeaderWriterFilter@181f0a61, org.springframework.web.filter.CorsFilter@201388b2, org.springframework.security.web.authentication.logout.LogoutFilter@3fd5c004, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d22fc31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ea722ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@596a5a86, org.springframework.security.web.session.SessionManagementFilter@6b03c670, org.springframework.security.web.access.ExceptionTranslationFilter@41233f1e]
+2020-12-10 16:18:57.534  INFO 4800 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 16:18:57.564  INFO 4800 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 16:18:57.705  INFO 4800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 16:18:57.706  INFO 4800 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 16:18:57.722  INFO 4800 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 16:18:57.752  INFO 4800 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 16:18:57.927  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 2.874 seconds (JVM running for 3.694)
+2020-12-10 16:21:22.648  INFO 4800 --- [http-nio-9300-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 16:21:22.648  INFO 4800 --- [http-nio-9300-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 16:21:22.654  INFO 4800 --- [http-nio-9300-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-10 16:21:23.021  INFO 4800 --- [http-nio-9300-exec-3] c.bkosft.uploadservice.config.ApiLogger  : requestId 2b00c15c-78ab-430e-80ed-2a052e790076, host localhost:9300  HttpMethod: POST, URI : /api/v1/upload/company/1
+2020-12-10 16:21:23.023  INFO 4800 --- [http-nio-9300-exec-3] c.bkosft.uploadservice.config.ApiLogger  : requestId 2b00c15c-78ab-430e-80ed-2a052e790076, Handle :ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"] , request take time: 1
+2020-12-10 16:21:41.321  INFO 4800 --- [http-nio-9300-exec-2] c.bkosft.uploadservice.config.ApiLogger  : requestId 30ec8f90-1f51-4fa5-838e-ae7aa26d2b39, host localhost:9300  HttpMethod: POST, URI : /api/v1/public/upload/company/1
+2020-12-10 16:21:41.498  INFO 4800 --- [http-nio-9300-exec-2] c.b.u.service.UploadServiceImpl          : =======> upload file: edndn.mp4
+2020-12-10 16:21:41.498  INFO 4800 --- [http-nio-9300-exec-2] c.b.u.service.UploadServiceImpl          : =====>  file size: 31331064
+2020-12-10 16:21:41.514  INFO 4800 --- [http-nio-9300-exec-2] c.bkosft.uploadservice.config.ApiLogger  : requestId 30ec8f90-1f51-4fa5-838e-ae7aa26d2b39, Handle :com.bkosft.uploadservice.controller.UploadController#uploadFiles(MultipartFile[], int) , request take time: 192
+2020-12-10 16:24:00.337  INFO 4800 --- [http-nio-9300-exec-5] c.bkosft.uploadservice.config.ApiLogger  : requestId d8a42d77-ea92-4c3d-b1e8-0eeb3b18c13f, host localhost:9300  HttpMethod: POST, URI : /api/v1/public/upload/company/1
+2020-12-10 16:24:00.547 ERROR 4800 --- [http-nio-9300-exec-5] c.b.u.service.UploadServiceImpl          : =>> duration error: 
+
+java.lang.RuntimeException: box size of zero means 'till end of file. That is not yet supported
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:89) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.boxes.sampleentry.VisualSampleEntry.parse(VisualSampleEntry.java:192) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:115) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.boxes.iso14496.part12.SampleDescriptionBox.parse(SampleDescriptionBox.java:90) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:115) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:75) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:115) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:75) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:115) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:75) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:115) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:75) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:115) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:75) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:115) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.IsoFile.<init>(IsoFile.java:57) ~[isoparser-1.9.39.jar:na]
+	at org.mp4parser.IsoFile.<init>(IsoFile.java:40) ~[isoparser-1.9.39.jar:na]
+	at com.bkosft.uploadservice.service.UploadServiceImpl.upload(UploadServiceImpl.java:94) ~[classes/:na]
+	at com.bkosft.uploadservice.controller.UploadController.uploadFiles(UploadController.java:26) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_261]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+
+2020-12-10 16:24:00.549  INFO 4800 --- [http-nio-9300-exec-5] c.b.u.service.UploadServiceImpl          : =======> upload file: mp4.mp4
+2020-12-10 16:24:00.549  INFO 4800 --- [http-nio-9300-exec-5] c.b.u.service.UploadServiceImpl          : =====>  file size: 105750220
+2020-12-10 16:24:00.551  INFO 4800 --- [http-nio-9300-exec-5] c.bkosft.uploadservice.config.ApiLogger  : requestId d8a42d77-ea92-4c3d-b1e8-0eeb3b18c13f, Handle :com.bkosft.uploadservice.controller.UploadController#uploadFiles(MultipartFile[], int) , request take time: 214
+2020-12-10 16:41:23.993  INFO 4800 --- [Thread-141] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-10 16:41:24.224  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 4800 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:41:24.225  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:41:24.710  INFO 4800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:41:24.711  INFO 4800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:41:24.711  INFO 4800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:41:24.731  INFO 4800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:41:24.731  INFO 4800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 504 ms
+2020-12-10 16:41:24.745  WARN 4800 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'uploadServiceApplication': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.bkosft.uploadservice.UploadServiceApplication] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2020-12-10 16:41:24.745  INFO 4800 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-10 16:41:24.752  INFO 4800 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-10 16:41:24.762 ERROR 4800 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'uploadServiceApplication': Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.bkosft.uploadservice.UploadServiceApplication] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.bkosft.uploadservice.UploadServiceApplication.main(UploadServiceApplication.java:35) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_261]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.bkosft.uploadservice.UploadServiceApplication] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/bkosft/uploadservice/service/UploadService;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_261]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_261]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_261]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.bkosft.uploadservice.service.UploadService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_261]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_261]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[na:1.8.0_261]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_261]
+	... 31 common frames omitted
+
+2020-12-10 16:43:10.079  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 4800 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:43:10.079  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:43:10.508  INFO 4800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:43:10.509  INFO 4800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:43:10.509  INFO 4800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:43:10.525  INFO 4800 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:43:10.525  INFO 4800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 443 ms
+2020-12-10 16:43:10.646  INFO 4800 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5d1345fc-0bb7-492d-9c8d-4e5cd2b66310
+
+2020-12-10 16:43:10.651  INFO 4800 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 16:43:10.673  INFO 4800 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4adc8488, org.springframework.security.web.context.SecurityContextPersistenceFilter@526b9071, org.springframework.security.web.header.HeaderWriterFilter@1e96a311, org.springframework.web.filter.CorsFilter@5b555996, org.springframework.security.web.authentication.logout.LogoutFilter@2cfd77dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10794c8d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b5cebb8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ffbf992, org.springframework.security.web.session.SessionManagementFilter@dd28184, org.springframework.security.web.access.ExceptionTranslationFilter@4ba13e37]
+2020-12-10 16:43:10.684  INFO 4800 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 16:43:10.689  INFO 4800 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 16:43:10.726  INFO 4800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 16:43:10.727  INFO 4800 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 16:43:10.727  INFO 4800 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 16:43:10.736  INFO 4800 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 16:43:10.789  INFO 4800 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 0.735 seconds (JVM running for 1456.555)
+2020-12-10 16:43:10.791  INFO 4800 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-10 16:43:48.127  INFO 12220 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 12220 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:43:48.130  INFO 12220 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:43:48.181  INFO 12220 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\ASUS\.m2\repository\xuggle\xuggle-xuggler\5.2\xuggle-xuggler-5.2.jar referenced one or more files that do not exist: file:/C:/Users/ASUS/.m2/repository/xuggle/xuggle-xuggler/5.2/commons-cli.jar,file:/C:/Users/ASUS/.m2/repository/xuggle/xuggle-xuggler/5.2/logback-classic.jar,file:/C:/Users/ASUS/.m2/repository/xuggle/xuggle-xuggler/5.2/logback-core.jar,file:/C:/Users/ASUS/.m2/repository/xuggle/xuggle-xuggler/5.2/slf4j-api.jar,file:/C:/Users/ASUS/.m2/repository/xuggle/xuggle-xuggler/5.2/xuggle-xuggler-test.jar
+2020-12-10 16:43:48.181  INFO 12220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-10 16:43:48.181  INFO 12220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-10 16:43:49.403  INFO 12220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:43:49.479  INFO 12220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:43:49.480  INFO 12220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:43:49.637  INFO 12220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:43:49.637  INFO 12220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1455 ms
+2020-12-10 16:43:50.362  INFO 12220 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 68f93b71-9e08-4886-ada8-e86c299c8ade
+
+2020-12-10 16:43:50.421  INFO 12220 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 16:43:50.477  INFO 12220 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b4d8cdf, org.springframework.security.web.context.SecurityContextPersistenceFilter@5350e184, org.springframework.security.web.header.HeaderWriterFilter@403f941c, org.springframework.web.filter.CorsFilter@61c96e98, org.springframework.security.web.authentication.logout.LogoutFilter@5c958bc5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@539e4905, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17fc5482, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61c21c4, org.springframework.security.web.session.SessionManagementFilter@40f23546, org.springframework.security.web.access.ExceptionTranslationFilter@4e0d0eee]
+2020-12-10 16:43:50.510  INFO 12220 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 16:43:50.541  INFO 12220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 16:43:50.693  INFO 12220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 16:43:50.694  INFO 12220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 16:43:50.710  INFO 12220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 16:43:50.741  INFO 12220 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 16:43:50.910  INFO 12220 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 3.094 seconds (JVM running for 3.882)
+2020-12-10 16:44:16.079  INFO 12220 --- [http-nio-9300-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 16:44:16.079  INFO 12220 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 16:44:16.086  INFO 12220 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-10 16:44:19.623  INFO 12220 --- [http-nio-9300-exec-1] c.bkosft.uploadservice.config.ApiLogger  : requestId 6f733607-01ad-498e-8b7a-1faf8fa7e7f5, host localhost:9300  HttpMethod: POST, URI : /api/v1/public/upload/company/1
+2020-12-10 16:44:21.221 ERROR 12220 --- [http-nio-9300-exec-1] com.xuggle.ferry.JNILibraryLoader        : Could not load library: xuggle; version: 5; Visit http://www.xuggle.com/xuggler/faq/ to find common solutions to this problem
+2020-12-10 16:44:21.222  INFO 12220 --- [http-nio-9300-exec-1] c.bkosft.uploadservice.config.ApiLogger  : requestId 6f733607-01ad-498e-8b7a-1faf8fa7e7f5, Handle :com.bkosft.uploadservice.controller.UploadController#uploadFiles(MultipartFile[], int) , request take time: 1598
+2020-12-10 16:44:21.946 ERROR 12220 --- [http-nio-9300-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.UnsatisfiedLinkError: no xuggle in java.library.path] with root cause
+
+java.lang.UnsatisfiedLinkError: no xuggle in java.library.path
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1860) ~[na:1.8.0_261]
+	at java.lang.Runtime.loadLibrary0(Runtime.java:871) ~[na:1.8.0_261]
+	at java.lang.System.loadLibrary(System.java:1122) ~[na:1.8.0_261]
+	at com.xuggle.ferry.JNILibraryLoader.loadLibrary0(JNILibraryLoader.java:268) ~[xuggle-xuggler-5.2.jar:5.2.0]
+	at com.xuggle.ferry.JNILibraryLoader.loadLibrary(JNILibraryLoader.java:171) ~[xuggle-xuggler-5.2.jar:5.2.0]
+	at com.xuggle.ferry.JNILibrary.load(JNILibrary.java:161) ~[xuggle-xuggler-5.2.jar:5.2.0]
+	at com.xuggle.ferry.FerryJNI.<clinit>(FerryJNI.java:16) ~[xuggle-xuggler-5.2.jar:5.2.0]
+	at com.xuggle.ferry.Ferry.<clinit>(Ferry.java:25) ~[xuggle-xuggler-5.2.jar:5.2.0]
+	at com.xuggle.xuggler.XugglerJNI.<clinit>(XugglerJNI.java:19) ~[xuggle-xuggler-5.2.jar:5.2.0]
+	at com.xuggle.xuggler.IContainer.<clinit>(IContainer.java:1622) ~[xuggle-xuggler-5.2.jar:5.2.0]
+	at com.bkosft.uploadservice.service.UploadServiceImpl.upload(UploadServiceImpl.java:98) ~[classes/:na]
+	at com.bkosft.uploadservice.controller.UploadController.uploadFiles(UploadController.java:26) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_261]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+
+2020-12-10 16:47:52.758  INFO 4420 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 4420 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:47:52.761  INFO 4420 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:47:52.806  INFO 4420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-10 16:47:52.807  INFO 4420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-10 16:47:54.133  INFO 4420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:47:54.140  INFO 4420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:47:54.140  INFO 4420 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:47:54.228  INFO 4420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:47:54.228  INFO 4420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1421 ms
+2020-12-10 16:47:54.961  INFO 4420 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d2372bcf-47fe-4b7a-b8b3-d84b5119e9e1
+
+2020-12-10 16:47:55.019  INFO 4420 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 16:47:55.075  INFO 4420 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e29fde7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d1d138, org.springframework.security.web.header.HeaderWriterFilter@7c7f74cf, org.springframework.web.filter.CorsFilter@57392533, org.springframework.security.web.authentication.logout.LogoutFilter@4b5bdf18, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fbe0d74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8a53798, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44876869, org.springframework.security.web.session.SessionManagementFilter@71ce2bca, org.springframework.security.web.access.ExceptionTranslationFilter@6b87b8ab]
+2020-12-10 16:47:55.108  INFO 4420 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 16:47:55.138  INFO 4420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 16:47:55.272  INFO 4420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 16:47:55.273  INFO 4420 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 16:47:55.288  INFO 4420 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 16:47:55.318  INFO 4420 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 16:47:55.483  INFO 4420 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 3.051 seconds (JVM running for 3.884)
+2020-12-10 16:48:07.444  INFO 4420 --- [http-nio-9300-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 16:48:07.444  INFO 4420 --- [http-nio-9300-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 16:48:07.451  INFO 4420 --- [http-nio-9300-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-10 16:48:08.654  INFO 4420 --- [http-nio-9300-exec-3] c.bkosft.uploadservice.config.ApiLogger  : requestId c7c07a2c-ebff-42f7-81a0-215eed67926f, host localhost:9300  HttpMethod: POST, URI : /api/v1/public/upload/company/1
+2020-12-10 16:48:08.903 ERROR 4420 --- [http-nio-9300-exec-3] c.b.u.service.UploadServiceImpl          : =>> duration error: 
+
+java.lang.RuntimeException: box size of zero means 'till end of file. That is not yet supported
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:90) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.boxes.sampleentry.VisualSampleEntry.parse(VisualSampleEntry.java:193) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:116) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.boxes.iso14496.part12.SampleDescriptionBox.parse(SampleDescriptionBox.java:91) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:116) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:76) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:116) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:76) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:116) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:76) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:116) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:76) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:116) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.support.AbstractContainerBox.parse(AbstractContainerBox.java:76) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.AbstractBoxParser.parseBox(AbstractBoxParser.java:116) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.BasicContainer.initContainer(BasicContainer.java:107) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.IsoFile.<init>(IsoFile.java:57) ~[isoparser-1.9.41.jar:na]
+	at org.mp4parser.IsoFile.<init>(IsoFile.java:40) ~[isoparser-1.9.41.jar:na]
+	at com.bkosft.uploadservice.service.UploadServiceImpl.upload(UploadServiceImpl.java:94) ~[classes/:na]
+	at com.bkosft.uploadservice.controller.UploadController.uploadFiles(UploadController.java:26) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_261]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_261]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_261]
+
+2020-12-10 16:48:08.905  INFO 4420 --- [http-nio-9300-exec-3] c.b.u.service.UploadServiceImpl          : =======> upload file: mp4.mp4
+2020-12-10 16:48:08.905  INFO 4420 --- [http-nio-9300-exec-3] c.b.u.service.UploadServiceImpl          : =====>  file size: 105750220
+2020-12-10 16:48:08.947  INFO 4420 --- [http-nio-9300-exec-3] c.bkosft.uploadservice.config.ApiLogger  : requestId c7c07a2c-ebff-42f7-81a0-215eed67926f, Handle :com.bkosft.uploadservice.controller.UploadController#uploadFiles(MultipartFile[], int) , request take time: 293
+2020-12-10 16:52:56.189  INFO 14936 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 14936 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:52:56.192  INFO 14936 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:52:56.236  INFO 14936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-10 16:52:56.237  INFO 14936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-10 16:52:57.432  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:52:57.439  INFO 14936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:52:57.439  INFO 14936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:52:57.526  INFO 14936 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:52:57.527  INFO 14936 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1290 ms
+2020-12-10 16:52:58.262  INFO 14936 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 481b81b8-ba06-4b00-92c9-8dd4c6b80113
+
+2020-12-10 16:52:58.321  INFO 14936 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 16:52:58.377  INFO 14936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58703912, org.springframework.security.web.context.SecurityContextPersistenceFilter@7748ffde, org.springframework.security.web.header.HeaderWriterFilter@26aece64, org.springframework.web.filter.CorsFilter@b7d7f1, org.springframework.security.web.authentication.logout.LogoutFilter@57dd044, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d354a74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6641b571, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cf68ca7, org.springframework.security.web.session.SessionManagementFilter@3273f3bf, org.springframework.security.web.access.ExceptionTranslationFilter@3a20b4f]
+2020-12-10 16:52:58.418  INFO 14936 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 16:52:58.453  INFO 14936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 16:52:58.627  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 16:52:58.629  INFO 14936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 16:52:58.645  INFO 14936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 16:52:58.677  INFO 14936 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 16:52:58.849  INFO 14936 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 2.977 seconds (JVM running for 3.686)
+2020-12-10 16:53:03.911  INFO 14936 --- [http-nio-9300-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 16:53:03.911  INFO 14936 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 16:53:03.919  INFO 14936 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-12-10 16:53:05.035  INFO 14936 --- [http-nio-9300-exec-1] c.bkosft.uploadservice.config.ApiLogger  : requestId 3b59d2d6-0c69-4994-80fe-8ac62dae2a77, host localhost:9300  HttpMethod: POST, URI : /api/v1/public/upload/company/1
+2020-12-10 16:53:05.287  INFO 14936 --- [http-nio-9300-exec-1] c.b.u.service.UploadServiceImpl          : =======> upload file: mp4.mp4
+2020-12-10 16:53:05.287  INFO 14936 --- [http-nio-9300-exec-1] c.b.u.service.UploadServiceImpl          : =====>  file size: 105750220
+2020-12-10 16:53:05.327  INFO 14936 --- [http-nio-9300-exec-1] c.bkosft.uploadservice.config.ApiLogger  : requestId 3b59d2d6-0c69-4994-80fe-8ac62dae2a77, Handle :com.bkosft.uploadservice.controller.UploadController#uploadFiles(MultipartFile[], int) , request take time: 292
+2020-12-10 16:59:58.348  INFO 9576 --- [restartedMain] c.b.u.UploadServiceApplication           : Starting UploadServiceApplication on SupeTeme with PID 9576 (F:\code\micro\UploadService\target\classes started by ASUS in F:\code\micro\UploadService)
+2020-12-10 16:59:58.351  INFO 9576 --- [restartedMain] c.b.u.UploadServiceApplication           : No active profile set, falling back to default profiles: default
+2020-12-10 16:59:58.394  INFO 9576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-10 16:59:58.394  INFO 9576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-10 16:59:59.641  INFO 9576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9300 (http)
+2020-12-10 16:59:59.649  INFO 9576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-10 16:59:59.650  INFO 9576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-12-10 16:59:59.738  INFO 9576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-10 16:59:59.738  INFO 9576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1344 ms
+2020-12-10 17:00:00.445  INFO 9576 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 36a4e599-35b6-4841-8faa-498dda9cab33
+
+2020-12-10 17:00:00.504  INFO 9576 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-10 17:00:00.561  INFO 9576 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12320540, org.springframework.security.web.context.SecurityContextPersistenceFilter@34d3fd16, org.springframework.security.web.header.HeaderWriterFilter@2b474678, org.springframework.web.filter.CorsFilter@1f0cff9e, org.springframework.security.web.authentication.logout.LogoutFilter@240d276c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b37b8e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28840a63, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a63312a, org.springframework.security.web.session.SessionManagementFilter@128899b4, org.springframework.security.web.access.ExceptionTranslationFilter@6d22fc31]
+2020-12-10 17:00:00.595  INFO 9576 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 17:00:00.625  INFO 9576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-10 17:00:00.788  INFO 9576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9300 (http) with context path ''
+2020-12-10 17:00:00.789  INFO 9576 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-10 17:00:00.809  INFO 9576 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-10 17:00:00.842  INFO 9576 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-10 17:00:01.023  INFO 9576 --- [restartedMain] c.b.u.UploadServiceApplication           : Started UploadServiceApplication in 2.975 seconds (JVM running for 3.69)
+2020-12-10 17:00:21.064  INFO 9576 --- [http-nio-9300-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 17:00:21.064  INFO 9576 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-10 17:00:21.069  INFO 9576 --- [http-nio-9300-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-10 17:00:29.042  INFO 9576 --- [http-nio-9300-exec-10] c.bkosft.uploadservice.config.ApiLogger  : requestId 7b16bfdc-bb63-4959-bdaf-aa177202ffbf, host localhost:9300  HttpMethod: GET, URI : /api/v1/public/log
+2020-12-10 17:00:29.056  INFO 9576 --- [http-nio-9300-exec-10] c.bkosft.uploadservice.config.ApiLogger  : requestId 7b16bfdc-bb63-4959-bdaf-aa177202ffbf, Handle :com.bkosft.uploadservice.controller.UploadController#getLog() , request take time: 14

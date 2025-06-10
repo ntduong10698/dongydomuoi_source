@@ -1,0 +1,110 @@
+/* name of detail of article */
+.tinTuc__title{
+  font-size: var(--font-h3-size-mobile);
+
+  padding-top: 30px;
+}
+/* end name of detail of article */
+
+/* tong dai tu van */
+.tinTuc__tdtv{
+  font-size: 1.4rem;
+  border-top-left-radius: 10px;
+}
+.tinTuc__tdtv--wrap{
+  width: 70%;
+  align-items: center;
+  margin: auto;
+}
+.tinTuc__tdtv h3{
+  font-size: 1.7rem;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: var(--text-white);
+  background-color: var(--bg-green);
+  margin-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.tinTuc__tdtv h3 i{
+  color: var(--text-yellow);
+  margin-right: 10px;
+
+}
+.tinTuc__tdtv--nameContact{
+  font-size: 1.6rem;
+  color: var(--text-black1);
+  font-weight: 700;
+}
+.tinTuc__tdtv ul{
+    background-color: var(--text-yellow);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.tinTuc__tdtv ul li:not(:first-child){
+   margin-top: 10px;
+
+}
+.tinTuc__tdtv ul li{
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.tinTuc__tdtv--details{
+  font-size: 1.6rem;
+  color: var(--text-black1);
+  
+}
+.tinTuc__tdtv--details i{
+  margin-right: 5px;
+
+}
+.tinTuc__tdtv--details a{
+   color: var(--text-black1);
+   /* font-weight: 700; */
+}
+
+@media screen and (min-width: 576px){
+  .tinTuc__tdtv--wrap{
+    width: 100%;
+    
+  }
+}
+/* end tong dai tu van */
+
+/* gui cau hoi tu van */
+.tinTuc__sendQuestion{
+    
+}
+.tinTuc__sendQuestion--wrap{
+    width: 70%;
+    margin: auto;
+    background-color: var(--bg-gray);
+    border-radius: 5px;
+    padding: 10px;
+}
+.tinTuc__sendQuestion--input{
+  margin-top: 10px;
+
+}
+.tinTuc__sendQuestion--input input,
+.tinTuc__sendQuestion--input textarea
+{
+  font-size: 1.4rem;
+}
+
+.tinTuc__sendQuestion--button{
+  margin-top: 10px;
+}
+.tinTuc__sendQuestion--button button{
+  font-size: 1.4rem;
+}
+@media screen and (min-width: 576px){
+.tinTuc__sendQuestion--wrap{
+    width: 100%;
+}
+}
+/* end gui cau hoi tu van */
