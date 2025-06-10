@@ -7,7 +7,7 @@ spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     password: Dongydomuoi@2025!
-    url: jdbc:mysql://103.106.104.190:3306/dongydomuoi_com?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://db.dongydomuoi.com:3306/dongydomuoi_com?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: dongydomuoi_com
     hikari:
       idle-timeout: 5000
@@ -44,8 +44,9 @@ spring:
       max-file-size: 1000MB
       max-request-size: 1000MB
   download:
-    link-prefix: https://cdn.bksoftwarevn.com/resources/micro-upload/
+    link-prefix: https://cdn.dongydomuoi.com/resources/micro-upload/
 server-url: https://admin.dongydomuoi.com/
+#server-url: http://127.0.0.1:6868/
 
 logging:
   level:

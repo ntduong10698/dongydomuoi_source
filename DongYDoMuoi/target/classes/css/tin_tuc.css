@@ -1,0 +1,411 @@
+
+a{
+  color: black;
+
+}
+a:hover{
+  color: black;
+}
+.tinTuc__title{
+    font-size: var(--font-h3-size-mobile);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tinTuc__element{
+    color: black;
+  
+}
+.tinTuc__element--info{
+
+}
+.tinTuc__element--name{
+    font-size: var(--font-h3-size-mobile);
+    /* padding-top: 20px; */
+    padding-bottom: 10px;
+}
+.tinTuc__element--description{
+    font-size: var(--font-h3-size-mobile);
+      display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.tinTuc__element--commentCount{
+    color: gray;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.tinTuc__element--showMoreBtn{
+    margin-top: 10px;
+}
+.tinTuc__element--showMoreBtn button{
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 2px solid #0056a8;
+    background: transparent;
+    color: var(--text-blue);
+
+
+}
+
+.tinTuc__element--showMoreBtn button:hover{
+  background: #0056a8;
+  color: var(--text-white);
+}
+
+.tinTuc__element--img{
+  height: 100%;
+}
+.tinTuc__element--img img{
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  position: relative;
+}
+
+.tinTuc__element--time{
+width: 50px;
+height: 50px;
+position: absolute;
+top: 5px;
+left: 3px;
+background: white;
+font-size: 14px;
+font-weight: bold;
+border: 2px solid var(--text-blue);
+border-radius: 5px;
+transition: all 0.3s;
+color: var(--text-blue);
+}
+.tinTuc__element:hover .tinTuc__element--time{
+background: var(--text-blue);
+color: white;
+transition: all 0.3s;
+}
+.tinTuc__element--info{
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+.tinTuc__element--name{
+    font-size: var(--font-h3-size-mobile);
+    /* padding-top: 20px; */
+    padding-bottom: 10px;
+    position: relative;
+}
+.tinTuc__element--name::before{
+  content: '';
+  width: 40px;
+  height: 2px;
+  background: var(--bg-gray);
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s;
+
+}
+.tinTuc__element:hover .tinTuc__element--name::before{
+  width: 150px;
+  transition: all 0.5s;
+}
+/* danh muc */
+.tinTuc__danhMuc{
+  width: 100%;
+  color: white;
+  border: 1px solid var(--bg-gray);
+}
+
+.tinTuc__danhMuc--title{
+  background: var(--main-color);
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-bottom: 0;
+
+}
+
+.tinTuc__danhMuc--listDm{
+  /* margin-top: 5px; */
+  padding-left: 0px;
+}
+.tinTuc__danhMuc--firstLevelUl{
+  padding-left: 0px;
+}
+
+.tinTuc__danhMuc--firstLevelLi{
+  border-top: 1px solid var(--bg-gray);
+  margin: auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 97%;
+ 
+}
+
+.tinTuc__danhMuc--firstLevelLi a{
+   font-size: 16px;
+   width: 90%;
+}
+.tinTuc__danhMuc--firstLevelLi a:hover{
+   color: var(--text-blue);
+}
+
+.dropdown-btn{
+  color: var(--text-gray1);
+}
+
+.tinTuc__danhMuc--secondLevelUl{
+  padding-left: 10px;
+
+}
+.tinTuc__danhMuc--secondLevelUl li a{
+    font-size: 14px;
+}
+.tinTuc__danhMuc--secondLevelUl li a:hover{
+  color: var(--text-blue);
+}
+
+/* san pham noi bat */
+
+.tinTuc__spnb{
+  margin-top: 30px;
+
+}
+
+.tinTuc__spnb--title{
+  
+}
+.tinTuc__spnb--title h3{
+  position: relative;
+  font-weight: bold;
+}
+.tinTuc__spnb--title h3::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+
+  width: 40px;
+  height: 3px;
+  background-color: var(--bg-gray);
+}
+
+.tinTuc__spnb--list{
+  margin-top: 20px;
+}
+.tinTuc__spnb--ul{
+  padding-left: 0px;
+}
+
+.tinTuc__spnb--li{
+  border-bottom: 1px solid var(--bg-gray);
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+.tinTuc__spnb--li:last-child{
+  border-bottom: 0px solid var(--bg-gray);
+}
+.tinTuc__spnb--li a{
+  display: flex;
+
+}
+.tinTuc__spnb--productName{
+   font-size: 14px;
+}
+.tinTuc__spnb--li a:hover .tinTuc__spnb--productName{
+  color: var(--text-blue);
+}
+.tinTuc__spnb--imgProduct{
+  margin-right: 10px;
+}
+.tinTuc__spnb--li a img{
+  width: 60px;
+  height: 60px;
+  
+}
+.tinTuc__spnb--oldPrice{
+  font-size: 14px;
+  color: var(--text-gray1);
+}
+
+.tinTuc__spnb--newPrice{
+  font-weight:bold;
+}
+
+
+/* end sp noi bat */
+
+
+/* bai viet gan day */
+.tinTuc__bvgd{
+  margin-top: 30px;
+
+}
+
+.tinTuc__bvgd--title{
+  
+}
+.tinTuc__bvgd--title h3{
+  position: relative;
+  font-weight: bold;
+}
+
+.tinTuc__bvgd--title h3::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+
+  width: 40px;
+  height: 3px;
+  background-color: var(--bg-gray);
+}
+
+.tinTuc__bvgd--list{
+  margin-top: 20px;
+}
+.tinTuc__bvgd--ul{
+  padding-left: 0px;
+}
+
+.tinTuc__bvgd--li{
+  border-bottom: 1px solid var(--bg-gray);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+.tinTuc__bvgd--li:last-child{
+  border-bottom: 0px solid var(--bg-gray);
+}
+.tinTuc__bvgd--li a{
+  display: flex;
+
+}
+.tinTuc__bvgd--productName{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.tinTuc__bvgd--commentCount{
+  font-size: 14px;
+  color: var(--text-gray1);
+  
+}
+.tinTuc__bvgd--li a:hover .tinTuc__bvgd--productName{
+  color: var(--text-blue);
+
+}
+.tinTuc__bvgd--commentCount p{
+  font-size: 14px;
+  color: var(--text-gray1);
+
+}
+.tinTuc__bvgd--imgProduct{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.tinTuc__bvgd--li a img{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.tinTuc__bvgd--time{
+  background: #000000cf;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.tinTuc__bvgd--date{
+  font-size: 16px;
+}
+.tinTuc__bvgd--month{
+  font-size: 14px;
+}
+/* end bai viet gan day */
+
+/* nhan bao gia */
+.tinTuc__nbg{
+  margin-top: 30px;
+
+}
+
+.tinTuc__nbg--title{
+  
+}
+.tinTuc__nbg--title h3{
+  position: relative;
+  font-weight: bold;
+}
+
+.tinTuc__nbg--title h3::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+
+  width: 40px;
+  height: 3px;
+  background-color: var(--bg-gray);
+}
+
+.tinTuc__nbg--list{
+  margin-top: 20px;
+}
+.tinTuc__nbg--ul{
+  padding-left: 0px;
+}
+
+.tinTuc__nbg--li{
+  border-bottom: 1px solid var(--bg-gray);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+.tinTuc__nbg--li:last-child{
+  border-bottom: 0px solid var(--bg-gray);
+}
+.tinTuc__nbg--li a{
+  display: flex;
+
+}
+.tinTuc__nbg--li a:hover .tinTuc__nbg--productName{
+  color: var(--text-blue);
+  font-size: 16px;
+}
+.tinTuc__nbg--imgProduct{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.tinTuc__nbg--img{
+  margin-top: 30px;
+  width: 100%;
+  min-width: 75%;
+}
+.tinTuc__nbg--img img{
+  width: 100%;
+  max-width: 400px;
+}
+/* end nhan bao gia */
+
+
+
+
+
+
+
+
+
+

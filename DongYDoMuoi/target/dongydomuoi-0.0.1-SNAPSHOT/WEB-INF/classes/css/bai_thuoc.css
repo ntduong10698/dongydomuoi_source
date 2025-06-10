@@ -1,0 +1,143 @@
+/* bai thuoc */
+.section-title {
+    text-transform: uppercase;
+    color: var(--main-color);
+    position: relative;
+    font-size: 2.4rem;
+}
+
+.col-inner {
+    margin: 40px 0 0 0;
+}
+.col-inner .inner-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.inner-item::before{
+    content: "";
+    width: calc(100% - 70px);
+    border-top: 2px solid var(--main-color);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+}
+.col-inner .inner-item h3 a {
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 245px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.col-inner .inner-item h3 {
+    margin: 0;
+    display: block;
+    padding: 10px 15px 7px 15px;
+    background-color: var(--main-color);
+    white-space: nowrap;
+    z-index: 1;
+    border-radius: 42px;
+    font-size: 1.2rem;
+}
+.col-inner .inner-item h3 a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.col-inner .inner-item h3 a img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+
+}
+.see-more{
+    position: relative;
+}
+.see-more::before{
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+.see-more a {
+    color: var(--main-color);
+    font-weight: 600;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.medicine {
+    margin-bottom: 10px;
+   
+    display: block;
+}
+.medicine__element a{
+    /* padding-bottom: 20px; */
+}
+.medicine-inner {
+    position: relative;
+    -webkit-box-shadow: 5px 5px 10px #999;
+    -moz-box-shadow: 5px 5px 10px #999;
+    box-shadow: 5px 5px 10px #999;
+    border-radius: 10px;
+    min-height: 285px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.medicine__img {
+   width: 100%;
+}
+
+.medicine__img img {
+    width: 100%;
+    max-width: 285px;
+    height: 80%;
+    min-height: 150px;
+    object-fit: cover;
+    
+}
+
+.medicine__text {
+    padding: 5px;
+}
+
+.medicine-name {
+    color: var(--text-black-1);
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    /* height: 48px; */
+}
+.medicine:hover .medicine-name{
+    color: var(--main-color);
+}
+
+.btn-chi-tiet{
+    margin-top: 10px;
+}
+.btn-chi-tiet button{
+    font-size: 1.4rem;
+}
+
+.medicine__text--description{
+    font-size: 1.4rem;
+    color: var(--text-gray1);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/*end bai thuoc*/

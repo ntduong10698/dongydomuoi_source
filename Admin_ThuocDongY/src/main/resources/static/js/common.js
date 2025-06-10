@@ -36,9 +36,10 @@ const IS_SERVICE = MAIN_SERVICE;
 // const UPLOAD_SERVICE = "https://cdn.bksoftwarevn.com/bk_cdn/api/";
 //fix_url
 const UPLOAD_SERVICE = MAIN_SERVICE;
-const DOWNLOAD_PREFIX = 'https://cdn.bksoftwarevn.com/resources/micro-upload/dong-y/'
+
+// const DOWNLOAD_PREFIX = 'https://cdn.bksoftwarevn.com/resources/micro-upload/dong-y/'
 //fix_url
-// const DOWNLOAD_PREFIX = 'https://cdn.nataliepmu.com/resources/micro-upload/nataliepmu/'
+const DOWNLOAD_PREFIX = 'https://cdn.dongydomuoi.com/resources/micro-upload/dong-y/'
 
 //alias
 

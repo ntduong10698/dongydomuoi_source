@@ -1,0 +1,9 @@
+.click-menu > a{
+    /*border: 2px solid #ffc700;*/
+}
+
+.click-item {
+    background-color: #000000;
+    color: #ffc700;
+
+}

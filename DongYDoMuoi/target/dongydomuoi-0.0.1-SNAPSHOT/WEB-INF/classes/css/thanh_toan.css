@@ -1,0 +1,103 @@
+.place-order>button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.payment_methods label{
+    font-size: 1.4rem;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.payment_methods .payment_box{
+    font-size: 1.3rem;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+.customer-detail h3,.checkout-sidebar h3 {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-black-2);
+}
+.checkout-sidebar table thead tr,.checkout-sidebar table tbody tr,.checkout-sidebar table tfoot tr{
+    border-bottom: 1px solid #dee2e6;
+}
+.checkout-sidebar table thead tr th{
+    border: none;
+    font-size: 1.4rem;
+    color:var(--text-black-2);
+    text-transform: uppercase;
+}
+.checkout-sidebar table tbody tr td{
+    border: none;
+    font-size: 1.3rem;
+    color:var(--text-black-2);
+}
+.checkout-sidebar table tbody tr td span{
+    font-weight: 600;
+ }
+.checkout-sidebar table tfoot tr th{
+    border: none;
+    font-size: 1.3rem;
+    color:var(--text-black-2);
+    text-transform: uppercase;
+}
+.checkout-sidebar table tfoot tr td{
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.checkout-sidebar table tfoot tr.cart-subtotal td{
+    color: var(--main-color);
+}
+.checkout-sidebar table tfoot tr.order-total td{
+    color: var(--red-color);
+}
+.customer-field{
+    padding-top: 10px;
+} 
+.filed-item{
+    margin: 5px 0;
+}
+.filed-item label{
+    color: var(--text-black-2);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.filed-item input{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.filed-item input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.filed-item select{
+    display: block;
+    width: 100%;
+    padding: 6px 5px;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    background-color: transparent;
+    border-color:#dee2e6 ;
+}
+.filed-item textarea{
+    padding: 5px;
+    font-size: 1.5rem;
+    min-height: 100px;
+}
+.filed-item h3{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-black-2);
+    
+}
+.filed-item textarea:focus{
+    outline: none;
+    box-shadow: none;
+}

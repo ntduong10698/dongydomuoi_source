@@ -1,0 +1,127 @@
+/* dat lich */
+.form-group.ficon {
+    display: flex;
+}
+/* dat lich */
+.dat-lich h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+label {
+    font-size: 1.6rem;
+}
+.form-group input,
+.form-group select {
+    font-size: 1.6rem;
+    border-radius: 2px;
+    height: 38px;
+}
+.form-group input:hover,
+.form-group input:focus,
+.form-group select:hover,
+.form-group select:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: var(--main-color);
+
+}
+.dat-lich button{
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    padding: 5px 10px;
+}
+.input-group-append i{
+    font-size: 1.6rem;
+}
+textarea{
+    display: block;
+    width: 100%;
+    min-height: 130px;
+    padding: 5px;
+    font-size: 1.6rem;
+}
+textarea:hover, textarea:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: var(--main-color);
+}
+.widget h3{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    background: var(--main-color);
+    padding: 10px 0;
+    margin: 0;
+    font-weight: 700;
+}
+.widget-content{
+    background: var(--main-color-2);
+    color: #fff;
+    padding: 15px;
+}
+.widget-content p a{
+    color: #fff !important;
+}
+.gj-textbox-md, .gj-textbox-md {
+    border: 1px solid #ced4da !important;
+    border-radius: 2px;
+    padding: 5px;
+}
+.gj-textbox-md:hover, .gj-textbox-md:focus {
+    border: 1px solid var(--main-color) !important;
+    border-radius: 2px;
+}
+/* border: 1px solid #ced4da; */
+.gj-timepicker-md [role=right-icon], .gj-datepicker-md [role=right-icon]{
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    right: 5px !important;
+}
+.gj-picker-md [role=header] {
+    background-color: var(--main-color) !important;
+}
+.gj-picker-md [role=footer] button.gj-button-md {
+    color: var(--main-color) !important;
+}
+.gj-picker-md .arrow-begin, .gj-picker-md [role=body] [role=arrow]{
+    background-color: var(--main-color);
+}
+.gj-picker-md .arrow-end {
+    border: 16px solid var(--main-color);
+}
+.gj-picker-md div[role=navigator] {
+    color: #fff;
+    background: var(--main-color);
+}
+.today div{
+    color: var(--yellow-color) !important;
+}
+.selected div{
+    background-color: var(--main-color) !important;
+}
+.dlk-age .input-group input{
+    width: 50px;
+}
+.dlk-age .input-group button{
+    border: 1px solid #ced4da !important;
+    width: 38px !important;
+    height: 38px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-loading img{
+    width: 97px;
+    height: 24px;
+    object-fit: cover;
+}
+@media screen and (min-width: 768px)  and (max-width: 991px) {
+    label[for =bs], label[for =date-picker], label[for = time-picker]{
+        height: 48px;
+    }
+}

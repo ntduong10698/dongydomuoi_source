@@ -21,7 +21,8 @@ public class RestService {
 
     JSONParser parser = new JSONParser();
 
-    private static final String SERVER_URL = "https://dev.bksoftwarevn.com/";
+    @Value("${server-url}")
+    private String SERVER_URL;
 
     @Value("${urlCDN}")
     private String urlCDN;

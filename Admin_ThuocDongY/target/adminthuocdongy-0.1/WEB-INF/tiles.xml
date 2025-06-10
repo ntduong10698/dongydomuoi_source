@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <!--    login page-->
+    <definition name="login" template="/WEB-INF/views/layouts/login.jsp"/>
+    <definition name="forget" template="/WEB-INF/views/layouts/forget.jsp"/>
+
+    <!--    Base Define giao dien trang chinh-->
+    <definition name="base.definition" template="/WEB-INF/views/layouts/index.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/views/base/header.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/views/base/_menu.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/views/base/footer.jsp"/>
+    </definition>
+
+    <definition name="home" extends="base.definition">
+        <put-attribute name="title" value="home"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/home.jsp"/>
+    </definition>
+
+    <definition name="san-pham" extends="base.definition">
+        <put-attribute name="title" value="Sản phẩm"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/product/product.jsp"/>
+    </definition>
+
+    <definition name="thuong-hieu" extends="base.definition">
+        <put-attribute name="title" value="Thương hiệu"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/product/brand.jsp"/>
+    </definition>
+
+    <definition name="thuoc-tinh" extends="base.definition">
+        <put-attribute name="title" value="Thuộc tính"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/product/properties.jsp"/>
+    </definition>
+
+    <definition name="loai-san-pham" extends="base.definition">
+        <put-attribute name="title" value="Loại sản phẩm"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/product/productType.jsp"/>
+    </definition>
+
+    <definition name="danh-muc" extends="base.definition">
+        <put-attribute name="title" value="Danh mục"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/product/category.jsp"/>
+    </definition>
+
+    <definition name="danh-muc-bai-viet" extends="base.definition">
+        <put-attribute name="title" value="Danh mục bài viết"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/article/categoryArticle.jsp"/>
+    </definition>
+
+    <definition name="bai-viet" extends="base.definition">
+        <put-attribute name="title" value="Bài viết"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/article/article.jsp"/>
+    </definition>
+
+    <definition name="lien-he" extends="base.definition">
+        <put-attribute name="title" value="Liên hệ"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/contact/contact.jsp"/>
+    </definition>
+
+    <definition name="lich-kham" extends="base.definition">
+        <put-attribute name="title" value="Lịch khám"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/contact/appointment.jsp"/>
+    </definition>
+
+    <definition name="van-chuyen" extends="base.definition">
+        <put-attribute name="title" value="Vận chuyển"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/bill/transport.jsp"/>
+    </definition>
+    <definition name="chuong-trinh-khuyen-mai" extends="base.definition">
+        <put-attribute name="title" value="Chương trình khuyến mãi"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/marketing/promotionEvent.jsp"/>
+    </definition>
+
+    <definition name="coupon" extends="base.definition">
+        <put-attribute name="title" value="Mã coupon"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/marketing/coupon.jsp"/>
+    </definition>
+
+    <definition name="popup" extends="base.definition">
+        <put-attribute name="title" value="Popup"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/marketing/popup.jsp"/>
+    </definition>
+
+    <definition name="van-chuyen" extends="base.definition">
+        <put-attribute name="title" value="Vận chuyển"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/bill/transport.jsp"/>
+    </definition>
+
+    <definition name="don-hang" extends="base.definition">
+        <put-attribute name="title" value="Đơn hàng"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/bill/cart.jsp"/>
+    </definition>
+
+<!--    thong tin doanh nghiep-->
+    <definition name="doanh-nghiep" extends="base.definition">
+        <put-attribute name="title" value="Doanh nghiệp"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/company/company.jsp"/>
+    </definition>
+
+    <definition name="logo" extends="base.definition">
+        <put-attribute name="title" value="Ảnh logo"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/company/logo.jsp"/>
+    </definition>
+
+    <definition name="robot" extends="base.definition">
+        <put-attribute name="title" value="Robot.txt"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/company/robot.jsp"/>
+    </definition>
+
+    <definition name="giao-dien" extends="base.definition">
+        <put-attribute name="title" value="Giao diện"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/company/interface.jsp"/>
+    </definition>
+
+    <definition name="khach-hang" extends="base.definition">
+        <put-attribute name="title" value="Khách hàng"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/company/customer.jsp"/>
+    </definition>
+
+    <definition name="bac-si" extends="base.definition">
+        <put-attribute name="title" value="Bác sĩ"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/edu/doctor.jsp"/>
+    </definition>
+
+    <definition name="tai-lieu" extends="base.definition">
+        <put-attribute name="title" value="Tài liệu"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/product/document.jsp"/>
+    </definition>
+
+<!--    tai khoan-->
+
+    <definition name="tai-khoan" extends="base.definition">
+        <put-attribute name="title" value="Tài khoản"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/user/profile.jsp"/>
+    </definition>
+
+    <definition name="doi-mat-khau" extends="base.definition">
+        <put-attribute name="title" value="Đổi mật khẩu"/>
+        <put-attribute name="body" value="/WEB-INF/views/body/user/change_password.jsp"/>
+    </definition>
+
+</tiles-definitions>

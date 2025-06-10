@@ -25,7 +25,7 @@ public class TransactionFilterAll implements Filter {
         if(queryString != null) {
             urlString.append("?" + queryString);
         }
-        req.setAttribute("image", "https://cdn.bksoftwarevn.com/resources/micro-upload//dong-y/logo/logo-dong-y.png");
+        req.setAttribute("image", "https://cdn.dongydomuoi.com/resources/micro-upload//dong-y/logo/logo-dong-y.png");
         req.setAttribute("title", "Đông Y Đỗ Mười");
         req.setAttribute("description", "Đông Y Đỗ Mười - Bài Thuốc Dân Tộc");
         req.setAttribute("url", urlString);

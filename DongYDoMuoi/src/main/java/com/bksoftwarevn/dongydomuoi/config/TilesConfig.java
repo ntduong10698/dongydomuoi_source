@@ -44,6 +44,8 @@ public class TilesConfig implements WebMvcConfigurer {
                 .addResourceLocations("classpath:/js/");
         registry.addResourceHandler("/ajax/**")
                 .addResourceLocations("classpath:/js/ajax/");
+        registry.addResourceHandler("/ajax_micro_service/**")
+                .addResourceLocations("classpath:/js/ajax_micro_service/");
         registry.addResourceHandler("/file/**")
                 .addResourceLocations("classpath:/file/");
         registry.addResourceHandler("/icon/**")

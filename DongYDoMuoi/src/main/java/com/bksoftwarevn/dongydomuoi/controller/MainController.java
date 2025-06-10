@@ -27,15 +27,6 @@ public class MainController {
     @Value("${urlCDN}")
     private String urlCDN;
 
-    @Value("${inforSystemService}")
-    private String inforSystemService;
-
-    @Value("${newsService}")
-    private String newsService;
-
-    @Value("${productService}")
-    private String productService;
-
     @Value("${companyId}")
     private String companyId;
 
@@ -51,7 +42,7 @@ public class MainController {
     public String trangChu(HttpServletRequest request) {
         try {
             JSONObject jsonObject = restService.callGetJson(RestBuilder.build()
-                    .service(inforSystemService)
+                    .service("")
                     .uri("api/v1/public/companies/" + companyId));
             String valImage = jsonObject.get("logo").toString();
             String valTitle = jsonObject.get("nameCompany").toString();
@@ -75,8 +66,8 @@ public class MainController {
     public String chiTietTuyenDung(HttpServletRequest request) {
         try {
             JSONObject jsonObject = restService.callGetJson(RestBuilder.build()
-                    .service(newsService)
-                    .uri("api/v1/public/newses/" + request.getParameter("id")));
+                    .service("")
+                    .uri("api/news/v1/public/newses/" + request.getParameter("id")));
             String valImage = jsonObject.get("image").toString();
             String valTitle = jsonObject.get("name").toString();
             String valDescription = jsonObject.get("preview").toString();
@@ -99,8 +90,8 @@ public class MainController {
     public String chiTietGioiThieu(HttpServletRequest request) {
         try {
             JSONObject jsonObject = restService.callGetJson(RestBuilder.build()
-                    .service(newsService)
-                    .uri("api/v1/public/newses/" + request.getParameter("id")));
+                    .service("")
+                    .uri("api/news/v1/public/newses/" + request.getParameter("id")));
             String valImage = jsonObject.get("image").toString();
             String valTitle = jsonObject.get("name").toString();
             String valDescription = jsonObject.get("preview").toString();
@@ -130,8 +121,8 @@ public class MainController {
     public String chiTietBaiThuoc(HttpServletRequest request) {
         try {
             JSONObject jsonObject = restService.callGetJson(RestBuilder.build()
-                    .service(newsService)
-                    .uri("api/v1/public/newses/" + request.getParameter("id")));
+                    .service("")
+                    .uri("api/news/v1/public/newses/" + request.getParameter("id")));
             String valImage = jsonObject.get("image").toString();
             String valTitle = jsonObject.get("name").toString();
             String valDescription = jsonObject.get("preview").toString();
@@ -155,8 +146,8 @@ public class MainController {
     public String chiTietNghienCuu(HttpServletRequest request) {
         try {
             JSONObject jsonObject = restService.callGetJson(RestBuilder.build()
-                    .service(newsService)
-                    .uri("api/v1/public/newses/" + request.getParameter("id")));
+                    .service("")
+                    .uri("api/news/v1/public/newses/" + request.getParameter("id")));
             String valImage = jsonObject.get("image").toString();
             String valTitle = jsonObject.get("name").toString();
             String valDescription = jsonObject.get("preview").toString();
@@ -187,7 +178,7 @@ public class MainController {
         try {
             int root = Integer.parseInt(request.getParameter("root"));
             JSONObject jsonObject = restService.callGetJson(RestBuilder.build()
-                    .service(productService)
+                    .service("")
                     .uri("api/v1/public/".concat(root == 1 ? "product-types/" : "categorys/")+ request.getParameter("id")));
             if(jsonObject != null) {
                 String valImage = jsonObject.get("image").toString();
@@ -214,7 +205,7 @@ public class MainController {
         request.setAttribute("title", "Sản phẩm");
         try {
             JSONObject jsonObject = restService.callGetJson(RestBuilder.build()
-                    .service(productService)
+                    .service("")
                     .uri("api/v1/public/products/" + request.getParameter("id"))
                     .param("cost", "false")
                     .param("property", "false")
@@ -287,7 +278,7 @@ public class MainController {
         ModelMapper modelMapper = new ModelMapper();
         try {
             Object o = restService.callGet(RestBuilder.build()
-                    .service("infor-system-service")
+                    .service("")
                     .uri("api/v1/public/url-alias/alias/" + servletPath + "/company-id/3"));
             if (o != null) {
                 List<UrlAlias> urlAliasList = Arrays.asList(modelMapper.map(o, UrlAlias[].class));
